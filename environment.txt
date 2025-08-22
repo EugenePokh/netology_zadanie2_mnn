@@ -1,0 +1,7 @@
+input/housing.csv (размещение нашего датасета)
+https://www.python.org/downloads/windows/
+py -m venv venv
+.\venv\Scripts\Activate
+pip install torch scikit-learn pandas numpy
+python train_single_neuron_boston.py
+deactivate
